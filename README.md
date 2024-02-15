@@ -154,27 +154,34 @@ git remote add origin https://github.com/Rakibul-Hashan/simple-ecommerce-site-wi
 > Link: https://github.com/joshnh/Git-Commands
 
 **Use this for checking the current branch status/ name:**
-> git branch
-
-**For creating a new branch, Here image-add is the branch name:**
-> git branch image-add
-
-**Use this to Create a new branch:**
-> git checkout [branch name]
-
-**Then add the repository again (root all changed files):**
-> git add .
 ```
-Push it again. But here we will get an error.
+ git branch
+```
+**For creating a new branch, Here image-add is the branch name:**
+```
+ git branch image-add
+```
+**Use this to Create a new branch:**
+```
+git checkout [branch name]
+```
+**Then add the repository again (root all changed files):**
+```
+ git add .
+```
+> Push it again. But here we will get an error.
 [fatal: The current branch image-add has no upstream branch.
 To push the current branch and set the remote as upstream, use
 ]
+```
 git push
-
+```
 To solve the error we have to use this: 
+```
 git push --set-upstream origin image-add
-
+```
 Now use again 
+```
 git push
 ```
 **নতুন  [branch name] এ সব কিছু চলে গেছে। এখন এডারে merge করতে হবে। এজন্য আমদের পুনরায় main branch এ গিয়ে merge করতে হবে
@@ -230,7 +237,7 @@ To see the reference video, you might follow this timeframe.
 > **This file was modified by
 Md. Alamin,
 Programmer,
-Java | Spring Boot | MySQL
-[Facebook](https://facebook.com/alamin5G)**
+Java | Spring Boot | MySQL - 
+[Facebook](https://facebook.com/aalamin5G)**
 
 
